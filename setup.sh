@@ -34,13 +34,12 @@ setup() {
      has yum && sudo yum install -y jq tig git
 
      has git && symlinkf "$dotfiles/.gitconfig" "$HOME/.gitconfig"
-     has git && symlinkf "$dotfiles/.git-completion.bash" "$HOME/.git-completion.bash"
-
+##     has git && symlinkf "$dotfiles/.git-completion.bash" "$HOME/.git-completion.bash"
      has git && symlinkf "$dotfiles/.bashrc" "$HOME/.bashrc"
 
      ## go
-     wget https://go.dev/dl/go1.22.1.linux-amd64.tar.gz -O go.tgz
-     tar -C $HOME -xzf go.tgz
+##     wget https://go.dev/dl/go1.22.1.linux-amd64.tar.gz -O go.tgz
+##     tar -C $HOME -xzf go.tgz
      which go && symlinkf "$dotfiles/.bash_profile" "$HOME/.bash_profile"
      source "$HOME/.bash_profile"
      which go && go install github.com/x-motemen/ghq@latest
