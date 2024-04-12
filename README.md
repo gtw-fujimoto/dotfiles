@@ -3,7 +3,7 @@
 ## setup modules
 
 ```
-curl -sL https://raw.githubusercontent.com/gtw-fujimoto/dotfiles/master/setup.sh | sh
+curl -sL https://raw.githubusercontent.com/gtw-fujimoto/dotfiles/main/setup.sh | sh
 ```
 
 ref: https://orgachem.hatenablog.com/entry/2014/05/13/001100
