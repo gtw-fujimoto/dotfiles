@@ -1,0 +1,2 @@
+git@github.com.gt:growthteamwork/gt-candy.git
+git@github.com.gt:growthteamwork/gt-novo.git
